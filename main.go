@@ -115,11 +115,11 @@ func help() {
 	help := ` 
 usage: zet [CMD]
   add        Add a zet
-  view       View zet
-  edit       Edit a zet
   delete     Delete a zet
+  edit       Edit a zet
   grep       Grep for keywords
   list       List zets
+  view       View zet
 `
 	fmt.Printf("%s", help)
 }
